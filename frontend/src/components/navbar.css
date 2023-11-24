@@ -1,0 +1,60 @@
+.navbar{
+    top:0;
+    position: sticky;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.topImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container{
+    padding: 10px 0px;
+}
+.link{
+    text-decoration: none;
+    color:inherit
+   
+}
+.links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 120px;
+
+}
+.h6{
+    font-size: 16px;
+    font-weight: 300;
+}
+.write{
+    background-color:teal;
+    color: white;
+   width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300px;
+
+}
+.write:hover{
+    background-color: white;
+    color: teal;
+    border: 2px solid teal;
+    cursor: pointer;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+.link h4{
+    color:rgba(121, 129, 85, 0.957);
+    font-style: italic;
+}

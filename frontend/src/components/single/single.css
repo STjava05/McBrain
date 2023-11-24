@@ -1,0 +1,10 @@
+.singleInfo{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+}
+.singleAuthor,.singleDate{
+    color: #be9656;
+}
