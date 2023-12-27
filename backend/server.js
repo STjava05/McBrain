@@ -15,7 +15,7 @@ app.use(cors());
 
 
 app.use('/product', require('./routes/productRoute'));
-app.use('/post', require('./routes/postRoute'));
+app.use('/blog', require('./routes/postRoute'));
 app.use('/form', require('./routes/formRoute'));
 
 

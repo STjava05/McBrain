@@ -15,7 +15,7 @@ function Content() {
           <span className="contentCat">Life</span>
         </div>
        
-        <Link to="/blog/:single1" className="contentTitle">Ooni of Ife unveils</Link>
+        <Link to="/blog/1" className="contentTitle">Ooni of Ife unveils</Link>
         <span className="contentDate">1 hour ago</span>
         <p className='contentDesc'>
           It was an evening of tradition, pomp and ceremony as the Ooni of Ife, Oba Enitan Ogunwusi, on Tuesday, formally unveiled his new son, Prince Adesoji Aderemi, at his palace in Ile Ife, Osun State.
@@ -34,7 +34,7 @@ function Content() {
           <span className="contentCat">Life</span>
         </div>
         
-        <Link to="/blog/:single2" className="contentTitle">Traditions and Culture Egungun</Link>
+        <Link to="/blog/2" className="contentTitle">Traditions and Culture Egungun</Link>
         <span className="contentDate">1 hour ago</span>
         <p className='contentDesc'>
           People who originate from Nigeria are called Nigerians. They hail from an area that is home to more than hundreds of dialects and ethnic groups, which have been commingled as a result of economic circumstances. As tribal states have given way to a modern nation, the shift has propelled the groups to settle down in regions well outside of their own religious, linguistic, and racial backgrounds.
@@ -50,7 +50,7 @@ function Content() {
           <span className="contentCat">Life</span>
         </div>
         
-        <Link to="/blog/:single" className="contentTitle">Traditional Dishes</Link>
+        <Link to="/blog/:3" className="contentTitle">Traditional Dishes</Link>
         <span className="contentDate">1 hour ago</span>
       </div>
       <p className='contentdesc'>

@@ -13,6 +13,7 @@ import Form from './components/form';
 import Contact from './pages/Contact';
 import Blog from './components/Blog';
 import Single from './components/single/Single';
+import SingleProduct from './pages/singleProduct';
 
 
 function App() {
@@ -25,8 +26,11 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/form' element={<Form />} />
           <Route path='/blog' element={<Blog />} />
-          <Route path='/blog/:single' element={<Single />} />
+          <Route path='/blog/:postId' element={<Single />} />
+         
           <Route path='/shop' element={<Shop />} />
+          <Route path='/product/:productId' element={<SingleProduct />} />
+
           <Route path="/register" element={<Register />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />

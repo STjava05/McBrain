@@ -26,6 +26,15 @@ module.exports.getProduct = async (req, res) => {
     }
 }
 
+module.exports.getSingleProduct = async (req, res) => {
+    try {
+        const product = await productModel.findById(req.params.id);
+        res.status(200).json(product);
+    } catch (err) {
+        res.status(400).json(err);
+    }
+}
+
 module.exports.updateProduct = async (req, res) => {
     const { name, description, price, category, quantity, url } = req.body;
     try {
